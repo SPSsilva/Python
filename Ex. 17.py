@@ -1,5 +1,7 @@
-from math import hypot
-co = float(input('Comprimento do cateto oposto:' ))
-c1 = float(input('Comprimento do ccateto adjaente: '))
-hi = hypot(co, c1)
-print('A hipotenusa vai medir {:.2f}'.format(hi))
+from math import floor, ceil
+t= float(input('Digite um número: '))
+u = t*4
+print(u)
+print('A nota final é igual á {} pontos arredondadas para baixo.'.format(floor(u)))
+print('A nota final é igual á {} pontos arrendondadas'.format(ceil(u)))
+
