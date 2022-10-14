@@ -1,4 +1,3 @@
-A = float(input('\033[7mComprimento do primeiro seguimento: '))
 A = float(input('Comprimento do primeiro seguimento: '))
 B = float(input('Comprimento do segundo seguimento: '))
 C = float(input('Comprimneto do terceiro seguimento: '))
