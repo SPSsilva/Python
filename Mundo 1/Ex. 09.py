@@ -1,4 +1,3 @@
-
 Y = int(input('Digite um número para ver sua tabuada: '))
 print('_'*16)
 print('{} X {:2} = {}'.format(Y, 1, Y*1))
