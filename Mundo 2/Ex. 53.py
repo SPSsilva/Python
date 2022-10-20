@@ -1,9 +1,11 @@
 S = str(input('Digite uma frase: ')).strip().upper()
-F = ''
-for c in range(3, 0, -1):
-    print(c, end='')
-    F = F + c
-if F == S:
+F = S.split()
+E = ''.join(F)
+#N = ''
+Fatiamento = E[::-1]
+#for c in range(len(E) -1, -1, -1):
+#    N += E[c]
+if Fatiamento == E:
     print('\nEsta frase é palíndroma.')
 else:
     print('\nEsta frase não é palíndroma.')
