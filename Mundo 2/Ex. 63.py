@@ -1,20 +1,13 @@
 S = int(input('Quantos números de sequencia? '))
 F = 0
-K = 0
-L = 0
-G = 0
-T = 0
-P = 0
+K = 1
+L = 3
 print('Na sequência de Fibonacci fica:')
-while P != S:
-    P += 1
-    G = F + L
+print('{} - {} -'.format(F, K), end='')
+while L <= S:
+    G = F + K
     print(' {} '.format(G), end='')
-    print('-' if P != S else '- Limite atingido', end='')
-    T = F
-    if F == 0:
-        F = 1
-    F = F + K
-    K = T
-    L = G
-
+    F = K
+    K = G
+    L += 1
+    print('-' if L <= S else '- Limite atingido', end='')
