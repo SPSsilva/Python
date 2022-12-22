@@ -7,7 +7,7 @@ P = ('ZERO', 'UM', 'DOIS', 'TRÊS',
 
 while True:
     S = int(input('Digite um número de 0 a 20 ou digite 100 para sair: '))
-    if 0 >= S <= 20:
-        print(P[S])
+    if 0 >= S or S <= 20:
+        print('Você digitou {}.'.format(P[S]))
     elif S == 100:
         break
