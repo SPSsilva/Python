@@ -15,3 +15,4 @@ for p in range(0, len(lista)):
         print(f'{lista[p]:.<25}', end='')
     else:
         print(f'R$:{lista[p]:>7.2F}')
+
