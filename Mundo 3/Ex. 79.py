@@ -10,5 +10,5 @@ while True:
         break
 lista.sort()
 print('-=-'*25)
-print('A seguir a lista dos números unicos e123 digitados em ordem crescente.')
+print('A seguir a lista dos números unicos e digitados em ordem crescente.')
 print(lista)
