@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c452dae-4fc1-4701-9f6e-e51be7edf249" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mundo 3/Ex. 79.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mundo 3/Ex. 79.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mundo 3/Ex. 80.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mundo 3/Ex. 80.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
